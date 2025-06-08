@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        .one{
+            position: relative;
+            background: rgb(129, 17, 83);
+            width: 80%;
+            left: 50px;
+            top: 3em;
+            height: 8em;
+            z-index: 2;
+        }
+        .two{
+            position: absolute;
+            z-index: 1;
+            background: rgb(55, 201, 26);
+            width: 80%;
+            left: 50px;
+            top: 3em;
+        }
+        .three{
+            position: fixed;
+            background: rgb(21, 127, 177);
+            width: 20%;
+            left: 40%;
+            top: 0;
+            height: 7em;
+            opacity: 0.9;
+            z-index: 3;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="one">1</div>
+            <div class="two">2</div>
+        <div class="three">3</div>
+    </body>
+</html>
