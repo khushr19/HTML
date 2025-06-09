@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Myntra</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.search {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.btns button {
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  background-color: #fdebd0;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Main section */
+.main {
+  display: flex;
+  background-color: #eafafa;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 20%;
+  padding: 20px;
+  border-right: 1px solid black;
+  background-color: #f9f5dc;
+}
+
+.filter {
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* Products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+.card {
+  width: 150px;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+.img-box {
+  width: 100%;
+  height: 150px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">Myntra</div>
+    <div class="menu">
+      <span>Men</span>
+      <span>Women</span>
+      <span>Kids</span>
+      <span>HomeLiving</span>
+      <span>Studio</span>
+    </div>
+    <input type="text" placeholder="Search engine">
+    <div class="btns">
+      <button>A</button>
+      <button>B</button>
+      <button>C</button>
+    </div>
+  </div>
+
+  <div class="breadcrumb">
+    Home / Clothing / <b>Men T-shirts</b><br>
+    Men T-shirts - 220188 items
+  </div>
+
+  <div class="main">
+    <div class="sidebar">
+      
+    </div>
+
+    <div class="products">
+      
+      
+      
+      <div class="card">
+        <div class="img-box">image</div>
+        <div class="desc">
+          <b>Jack & Jones</b><br>
+          Men Printed Extended Sleeves T-shirt
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-box">image</div>
+        <div class="desc">
+          <b>Jack & Jones</b><br>
+          Men Printed Extended Sleeves T-shirt
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-box">image</div>
+        <div class="desc">
+          <b>Jack & Jones</b><br>
+          Men Printed Extended Sleeves T-shirt
+        </div>
+      </div>
+      
+      
+      </div>
+    </div>
+  </div>
+</body>
+</html>
