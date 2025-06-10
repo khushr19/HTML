@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .nav{
+                background-color: black;
+                color: white;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 40px;
+                border: 1px solid black;
+                
+            }
+            .logo{
+                font-size: medium;
+            }
+            .menu{
+                background-color: rgb(2, 2, 32);
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 20px;
+            }
+            /* .search{
+                width: 300px;
+                padding: 8px;
+                border: 1px solid black;
+            } */
+             input[type="text"] {
+      padding: 8px ;
+      border: none;
+      background-color: white;
+      color: black;
+      cursor: pointer;
+      width: 800px;
+      border-radius: 4px;
+    }
+    .tab{
+        font-size: small;
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        background-color: whitesmoke;
+        color: black;
+        border: 1px solid rgb(21, 21, 29);
+        justify-content: space-around;
+        /* flex-direction: row; */
+    }
+    .btns{
+        border-radius: 4px;
+        font-size: medium;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .btns span{
+        border: 1px solid rgb(133, 126, 126);
+        padding: 5px 5px;
+        width: 150px;
+        align-items: center;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* button{
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+     justify-content: space-around;
+        /* width: 100%; */
+        .sidebar{
+            width: 20%;
+            padding: 5px;
+            height: 100vh;
+            border: 1px solid black;
+        }
+        .img-box {
+  width: 100px;
+  height: 150px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+img{
+    width: 100px;
+    height: 150px;
+}
+
+.desc {
+  font-size: 14px;
+}
+.products{
+    /* border: 1px solid black ; */
+    display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: flex-start;
+            /* padding: 5px; */
+            /* height: 100vh; */
+            justify-content: space-between;
+}
+.card {
+  width: 300px;
+  /* border: 1px solid black; */
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  height: 50%;
+}
+.main {
+  display: flex;
+  background-color: whitesmoke;
+}
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <div clas="logo">Amazon</div>
+            
+                <input type="text" placeholder="search">
+            
+            <div class="cart">Cart</div>
+        </div>
+        <div class="menu">
+            <span>MX Player</span>
+            <span>Sell</span>
+            <span>Bestsellers</span>
+            <span>Mobile</span>
+            <span>Today's deals</span>
+            <span>Prime</span>
+            <span>Customer Service</span>
+            <span>Fashion</span>
+            <span>New releases</span>
+            <span>Amazon Pay</span>
+            <span>Electronics</span>
+            <span>Home & Kitchen</span>
+            <span>Computers</span>
+        </div>
+        <div class="tab">
+            <span><b>Today's Deals</b></span>
+            <span>All deals</span>
+            <span>Watched deals</span>
+            <span>Subscribe & save</span>
+            <span>Coupons</span>
+            <span>Clearance</span>
+            <span>Refurbished & Open box</span>
+        </div>
+        <div class="btns">
+            <!-- <button>'<'</button> -->
+            <span>Trending</span>
+            <span>Coupons</span>
+            <span>Lightning Deals</span>
+            <span>Mobiles</span>
+            <span>Electronics</span>
+            <span>Mobiles & Computer accesories</span>
+            <span>Large applainces</span>
+            <span>Home & Kitchen</span>
+            <!-- <button>'>'</button> -->
+        </div>
+    <div class="main">
+        <div class="sidebar">
+            <b>Departments:</b><br>
+            <input type="radio">All<br>
+            <input type="radio">Amazon devices & accesories<br>
+            <input type="radio">Baby<br>
+            <input type="radio">Bags,wallets and luggage<br>
+            <input type="radio">Beauty<br>
+            <b>Brands:</b><br>
+            <input type="radio">iQOO<br>
+            <input type="radio">Redmi<br>
+            <input type="radio">One PLus<br>
+            <input type="radio">Samsung
+        </div>
+        
+      
+      
+   <div class="products">   
+      <div class="card">
+        <div class="img-box">
+            <img src="https://apollo.olx.in/v1/files/7r8hyj0vhsap3-IN/image;s=300x600;q=60">
+        </div>
+        <div class="desc">
+          iQOO 13 5G(Legend,12GB RAM,256GB Storage)
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-box">
+            <img src="https://apollo.olx.in/v1/files/7r8hyj0vhsap3-IN/image;s=300x600;q=60">
+        </div>
+        <div class="desc">
+          iQOO 13 5G(Legend,12GB RAM,256GB Storage)
+        </div>
+      </div>
+      <div class="card">
+      <div class="img-box">
+            <img src="https://apollo.olx.in/v1/files/7r8hyj0vhsap3-IN/image;s=300x600;q=60">
+        </div>
+        <div class="desc">
+          iQOO 13 5G(Legend,12GB RAM,256GB Storage)
+        </div>
+      </div>
+      
+      
+   </div>
+    </div>
+    </div>
+    </body>
+</html>
